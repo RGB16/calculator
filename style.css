@@ -70,23 +70,5 @@ button{
     color: bisque;
 }
 
-@media (min-width: 481px) and (max-width: 1200px) {
-    .calculator {
-        width: 100%; /* Set the width to 100% to occupy the full background width */
-        max-width: 600px; /* Limit the width to a maximum of 600px */
-        height: auto; /* Allow the height to adjust based on content */
-    }
-}
 
-form input {
-    width: 89%;
-    height: 150px;
-    border-radius: 12px;
-    font-size: 2rem;
-    padding: 1rem;
-    color: aliceblue;
-    background: black;
-    text-align: right;
-    pointer-events: none;
-}
 
